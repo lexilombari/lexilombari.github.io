@@ -1,0 +1,84 @@
+::selection {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+html, body, .container {
+  height: 100%;
+}
+
+body {
+  color: #333;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  line-height: 150%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 50%;
+  justify-content: center;
+}
+
+#left {
+  background: url("lex.jpg") no-repeat 51% 50% #1A1A1A;
+  background-size: cover;
+}
+
+hr {
+  width: 30px;
+  margin: 2rem auto;
+}
+
+#right {
+  background-color: #fff;
+  /*outline:1px solid rgba(0, 0, 0, 0.15);;*/
+  /*outline-offset: -3rem;*/
+}
+
+
+.hairline {
+  /*display: flex;*/
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  /*flex-grow: 1;*/
+  /*justify-content: center;*/
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .flex {
+    width: 100%;
+  }
+
+  #left {
+    flex-grow: 0;
+  }
+}
