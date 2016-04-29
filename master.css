@@ -49,8 +49,11 @@ a:hover {
 }
 
 hr {
+  border: none;
   width: 30px;
+  height: 2px;
   margin: 2rem auto;
+  background-color: #ccc;
 }
 
 #right {
@@ -59,15 +62,6 @@ hr {
   /*outline-offset: -3rem;*/
 }
 
-
-.hairline {
-  /*display: flex;*/
-  background-color: #fff;
-  width: 100px;
-  height: 100px;
-  /*flex-grow: 1;*/
-  /*justify-content: center;*/
-}
 
 @media screen and (max-width: 720px) {
   .container {
