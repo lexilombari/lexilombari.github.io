@@ -7,6 +7,7 @@ html, body, .container {
 }
 
 body {
+  background-color: #fff;
   color: #333;
   text-align: center;
   font-family: 'Work Sans', sans-serif;
@@ -32,21 +33,12 @@ a:hover {
 
 .container {
   display: flex;
-  flex-direction: row;
-}
-
-.flex {
-  display: flex;
   flex-direction: column;
   flex-grow: 1;
-  width: 50%;
+  width: 100%;
   justify-content: center;
 }
 
-#left {
-  background: url("lex.jpg") no-repeat 51% 50% #1A1A1A;
-  background-size: cover;
-}
 
 hr {
   border: none;
@@ -54,25 +46,4 @@ hr {
   height: 2px;
   margin: 2rem auto;
   background-color: #ccc;
-}
-
-#right {
-  background-color: #fff;
-  /*outline:1px solid rgba(0, 0, 0, 0.15);;*/
-  /*outline-offset: -3rem;*/
-}
-
-
-@media screen and (max-width: 720px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .flex {
-    width: 100%;
-  }
-
-  #left {
-    flex-grow: 0;
-  }
 }
