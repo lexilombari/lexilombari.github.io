@@ -1,0 +1,11 @@
+---
+title: Fig
+date: 2018-02-19 13:32:00 -05:00
+categories:
+- install
+layout: post
+---
+
+Fruit or plant? Who knows.
+
+![fig-1.jpg](/uploads/fig-1.jpg)
