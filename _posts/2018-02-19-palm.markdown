@@ -1,9 +1,15 @@
 ---
 title: Palm
-date: 2018-02-19 12:52:22 -05:00
+date: 2018-02-19 12:52:00 -05:00
 categories:
 - install
 layout: post
 ---
 
-This is another installation page.
+This is another installation page. Palms are cool. Here's a fancy drawing of a few:
+
+![palm-1.jpg](/uploads/palm-1.jpg)
+
+Here's a proper photo:
+
+![palm-2.jpg](/uploads/palm-2.jpg)
