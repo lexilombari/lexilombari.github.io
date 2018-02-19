@@ -1,0 +1,9 @@
+---
+title: Palm
+date: 2018-02-19 12:52:22 -05:00
+categories:
+- install
+layout: post
+---
+
+This is another installation page.
