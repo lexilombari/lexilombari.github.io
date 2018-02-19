@@ -1,13 +1,9 @@
 ---
-title: Aloe
-date: 2018-02-19 13:01:00 -05:00
+title: Eucalyptus
+date: 2018-02-19 12:50:00 -05:00
 categories:
 - install
-tags:
-- aloe
 layout: post
 ---
 
-This is an installation page. This one is for the great plant that is Aloe Vera:
-
-![aloe-1.jpg](/uploads/aloe-1.jpg)
+Eucalyptus, eucalyptus. Where are ya?
