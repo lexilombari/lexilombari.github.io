@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Fern"
+date:   2018-02-19 12:57:22 -0500
+categories: install
+---
+This is another installation page.

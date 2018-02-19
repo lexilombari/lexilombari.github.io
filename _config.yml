@@ -18,6 +18,7 @@ email: lexilombari@gmail.com
 description: Store and installation design
 url: "http://lexilombari.com" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username:  lexilombari
+pinterest_username: lexilombari
 
 # Build settings
 markdown: kramdown
