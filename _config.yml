@@ -1,0 +1,20 @@
+---
+title: Lexi Lombari
+timezone: America/New_York
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: lexilombari@gmail.com
+description: Store and installation design
+url: http://lexilombari.com
+instagram_username: lexilombari
+pinterest_username: lexilombari
+markdown: kramdown
+theme: minima
+plugins:
+- jekyll-feed
+permalink: "/:title/"
