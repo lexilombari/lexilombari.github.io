@@ -6,4 +6,4 @@ categories:
 layout: post
 ---
 
-This is an installation page.
+Eucalyptus, eucalyptus. Where are ya?
