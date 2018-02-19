@@ -2,6 +2,8 @@
 title: Dandelion
 date: 2018-02-19 13:44:00 -05:00
 layout: post
+categories:
+- inspiration
 ---
 
 Another one for Dandelion:

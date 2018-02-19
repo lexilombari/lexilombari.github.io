@@ -10,6 +10,7 @@ layout: default
     <ul class="post-list">
       {% for post in site.posts %}
       <li>
+        <a href="{{ post.url | relative_url }}">
         <!-- First image from post -->
         {% assign images = post.content | split:"<img " %}
         {% for image in images %}
@@ -20,19 +21,20 @@ layout: default
           {% endif %}
         {% endfor %}
 
+        <!-- Title -->
+        <h2>
+          {{ post.title | escape }}
+        </h2>
+
         <!-- Date -->
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <!-- Title -->
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h2>
+
         <!-- Excerpt -->
         {% if site.show_excerpts %}
           {{ post.excerpt }}
         {% endif %}
+        </a>
       </li>
       {% endfor %}
     </ul>

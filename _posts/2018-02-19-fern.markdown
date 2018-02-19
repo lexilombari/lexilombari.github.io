@@ -2,9 +2,10 @@
 title: Fern
 date: 2018-02-19 12:57:00 -05:00
 categories:
-- install
+- work
 layout: post
 ---
 
 This is another installation page. This time for fern. It's a nice page. Let's add a photo:
+
 ![ferns-1.jpg](/uploads/ferns-1.jpg)

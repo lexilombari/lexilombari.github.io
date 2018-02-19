@@ -2,7 +2,7 @@
 title: Moss
 date: 2018-02-19 13:50:00 -05:00
 categories:
-- install
+- inspiration
 layout: post
 ---
 

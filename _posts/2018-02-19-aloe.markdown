@@ -2,7 +2,7 @@
 title: Aloe
 date: 2018-02-19 13:01:00 -05:00
 categories:
-- install
+- work
 tags:
 - aloe
 layout: post

@@ -1,11 +1,21 @@
 <header>
+  <nav>
     <h1>
       <a rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     </h1>
-
+       
     <ul>
-      <li>Work</li>
-      <li>Inspiration</li>
+      {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+      {% for p in navigation_pages %}
+        {% if p.navigation_weight %}
+          <li>
+            <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
+              {{ p.title }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
     </ul>
+    </nav>
 
 </header>
