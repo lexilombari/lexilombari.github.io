@@ -3,24 +3,33 @@ layout: default
 ---
 
 <div class="home">
-  {% if page.title %}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {% endif %}
 
   {{ content }}
 
   {% if site.posts.size > 0 %}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
       {% for post in site.posts %}
       <li>
+        <!-- First image from post -->
+        {% assign images = post.content | split:"<img " %}
+        {% for image in images %}
+          {% if image contains 'src=' %}
+            {% assign imageMarkup = image | split:">" | first %}
+            <img {{ imageMarkup }}>
+            {% break %}
+          {% endif %}
+        {% endfor %}
+
+        <!-- Date -->
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
+        <!-- Title -->
+        <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h3>
+        </h2>
+        <!-- Excerpt -->
         {% if site.show_excerpts %}
           {{ post.excerpt }}
         {% endif %}
