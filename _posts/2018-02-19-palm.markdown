@@ -1,6 +1,6 @@
 ---
 title: Palm
-date: 2018-02-19 17:52:22 Z
+date: 2018-02-19 12:52:22 -05:00
 categories:
 - install
 layout: post
