@@ -1,7 +1,9 @@
 ---
+title: Aloe
+date: 2018-02-19 18:01:22 Z
+categories:
+- install
 layout: post
-title:  "Aloe"
-date:   2018-02-19 13:01:22 -0500
-categories: install
 ---
+
 This is an installation page.

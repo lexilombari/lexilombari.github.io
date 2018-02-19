@@ -1,7 +1,9 @@
 ---
+title: Palm
+date: 2018-02-19 17:52:22 Z
+categories:
+- install
 layout: post
-title:  "Palm"
-date:   2018-02-19 12:52:22 -0500
-categories: install
 ---
+
 This is another installation page.
