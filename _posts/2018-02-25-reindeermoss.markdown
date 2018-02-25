@@ -5,4 +5,4 @@ categories:
 - work
 ---
 
-**Green** It's also stinky. 
+**Green** It's also stinky. ![03.Side Wall details 2.jpeg](/uploads/03.Side%20Wall%20details%202.jpeg)
